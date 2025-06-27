@@ -14,7 +14,7 @@ public class SubstringPresent {
 
         //checking using for loop
         boolean found= false;
-        for(int i=0; i<str.length()-substr.length(); i++){
+        for(int i=0; i<=str.length()-substr.length(); i++){
             int j;
             for(j=0; j<substr.length(); j++){
                 if(str.charAt(i+j)!=substr.charAt(j)){
